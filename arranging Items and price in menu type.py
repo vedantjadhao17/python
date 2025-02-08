@@ -1,0 +1,5 @@
+Item = input("Enter the Item: ")
+price = input("Enter price: ")
+total_len = len(Item) + len(price)
+dots = '.' * (25 - total_len)
+print(Item + dots + price)
